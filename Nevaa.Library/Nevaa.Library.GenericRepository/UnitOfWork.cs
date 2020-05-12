@@ -3,10 +3,8 @@ using Nevaa.Library.GenericRepository.Interfaces;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
-using System.Text;
-using Nevaa.Library.GenericRepository;
 
-namespace GenericRepository
+namespace Nevaa.Library.GenericRepository
 {
     public class UnitOfWork : IUnitOfWork
     {
