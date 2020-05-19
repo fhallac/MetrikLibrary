@@ -14,7 +14,6 @@ namespace Nevaa.Library.Service
     {
         public IUnitOfWork _unitOfWork;
         private readonly IRepository<T> _repository;
-        //public ILookupService LookupService { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
         public BaseService(IUnitOfWork unitOfWork)
         {
             _unitOfWork = unitOfWork;
@@ -22,12 +21,12 @@ namespace Nevaa.Library.Service
         }
         public int Commit()
         {
-            throw new NotImplementedException();
+            return _unitOfWork._dbContext.SaveChanges();
         }
 
-        public ValidationResult Delete(T entity, bool forceDelete = false)
+        public void Delete(int id, bool forceDelete = false)
         {
-            throw new NotImplementedException();
+            _repository.Delete(id, forceDelete);
         }
 
         public void Dispose()

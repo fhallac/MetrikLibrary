@@ -45,5 +45,10 @@ namespace Nevaa.Library.GenericRepository
         {
             return new List<T>();// _dbContext.Database.Connection.Query<T>(query).ToList();
         }
+
+        public DbContext GetDbContext()
+        {
+            return _dbContext;
+        }
     }
 }

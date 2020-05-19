@@ -12,5 +12,7 @@ namespace Nevaa.Library.GenericRepository.Interfaces
         List<T> GetDataWithSqlQuery<T>(string query) where T : BaseModel, new();
         IRepository<T> GetRepository<T>() where T : BaseModel;
         int Commit();
+        DbContext GetDbContext();
+
     }
 }
