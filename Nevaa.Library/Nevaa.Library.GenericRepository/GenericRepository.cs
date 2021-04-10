@@ -39,25 +39,24 @@ namespace Nevaa.Library.GenericRepository
                 if (!forceDelete)
                 {
                     T _entity = entity;
-                    _entity.GetType().GetProperty("Aktif").SetValue(_entity, true);
+                    _entity.GetType().GetProperty("IsActive").SetValue(_entity, true);
 
                     this.Update(_entity);
                 }
                 else
                 {
-                    Delete(entity);
+                    Delete(entity,forceDelete);
                 }
             }
         }
 
         public void Delete(T entity, bool forceDelete = false)
         {
-            //entity.GetType().GetProperty("Aktif") != null
             if (!forceDelete)
             {
-                //T _entity = entity;
+                T _entity = entity;
 
-                //_entity.GetType().GetProperty("Aktif").SetValue(_entity, true);
+                _entity.GetType().GetProperty("IsActive").SetValue(_entity, true);
 
                 this.Update(entity);
             }

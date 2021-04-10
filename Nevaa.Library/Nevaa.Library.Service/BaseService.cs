@@ -51,7 +51,7 @@ namespace Nevaa.Library.Service
 
         public T GetById(int id, Func<IIncludable<T>, IIncludable> includes = null)
         {
-            return _repository.GetById(id);
+            return _repository.GetById(id,includes);
         }
 
         public IQueryable<T> GetListByQuery(string query)
