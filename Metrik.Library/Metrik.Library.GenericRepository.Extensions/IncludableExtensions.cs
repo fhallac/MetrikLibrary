@@ -1,4 +1,4 @@
-﻿using Nevaa.Library.GenericRepository.Extensions.Interfaces;
+﻿using Metrik.Library.GenericRepository.Extensions.Interfaces;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -7,7 +7,7 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
 
-namespace Nevaa.Library.GenericRepository.Extensions
+namespace Metrik.Library.GenericRepository.Extensions
 {
     public static class IncludableExtensions
     {

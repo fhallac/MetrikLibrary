@@ -1,7 +1,7 @@
-﻿using Nevaa.Library.GenericRepository.Base;
-using Nevaa.Library.GenericRepository.Extensions;
-using Nevaa.Library.GenericRepository.Extensions.Interfaces;
-using Nevaa.Library.GenericRepository.Interfaces;
+﻿using Metrik.Library.GenericRepository.Base;
+using Metrik.Library.GenericRepository.Extensions;
+using Metrik.Library.GenericRepository.Extensions.Interfaces;
+using Metrik.Library.GenericRepository.Interfaces;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.ChangeTracking;
 using System;
@@ -9,7 +9,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
 
-namespace Nevaa.Library.GenericRepository
+namespace Metrik.Library.GenericRepository
 {
     public class GenericRepository<T> : IRepository<T> where T : BaseModel
     {

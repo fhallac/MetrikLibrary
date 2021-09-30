@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Nevaa.Library.GenericRepository.Extensions.Interfaces
+namespace Metrik.Library.GenericRepository.Extensions.Interfaces
 {
     public interface IIncludable { }
     public interface IIncludable<out TEntity> : IIncludable { }

@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="8.6.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Metrik.Library.GenericRepository.Base\Metrik.Library.GenericRepository.Base.csproj" />
+    <ProjectReference Include="..\Metrik.Library.GenericRepository.Extensions\Metrik.Library.GenericRepository.Extensions.csproj" />
+    <ProjectReference Include="..\Metrik.Library.GenericRepository\Metrik.Library.GenericRepository.csproj" />
+  </ItemGroup>
+
+</Project>

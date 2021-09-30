@@ -1,10 +1,10 @@
-﻿using Nevaa.Library.GenericRepository.Base.Interfaces;
+﻿using Metrik.Library.GenericRepository.Base.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Text;
 
-namespace Nevaa.Library.GenericRepository.Base
+namespace Metrik.Library.GenericRepository.Base
 {
     public class BaseModel : IBaseModel
     {

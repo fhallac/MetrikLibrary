@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Interfaces\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.10" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Metrik.Library.GenericRepository.Base\Metrik.Library.GenericRepository.Base.csproj" />
+    <ProjectReference Include="..\Metrik.Library.GenericRepository.Extensions\Metrik.Library.GenericRepository.Extensions.csproj" />
+  </ItemGroup>
+
+</Project>

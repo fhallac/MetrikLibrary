@@ -1,10 +1,10 @@
-﻿using Nevaa.Library.GenericRepository.Base;
-using Nevaa.Library.GenericRepository.Interfaces;
+﻿using Metrik.Library.GenericRepository.Base;
+using Metrik.Library.GenericRepository.Interfaces;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 
-namespace Nevaa.Library.GenericRepository
+namespace Metrik.Library.GenericRepository
 {
     public class UnitOfWork : IUnitOfWork
     {

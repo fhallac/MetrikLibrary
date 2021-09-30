@@ -3,12 +3,12 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
-using Nevaa.Library.GenericRepository;
-using Nevaa.Library.GenericRepository.Base;
-using Nevaa.Library.GenericRepository.Extensions.Interfaces;
-using Nevaa.Library.GenericRepository.Interfaces;
+using Metrik.Library.GenericRepository;
+using Metrik.Library.GenericRepository.Base;
+using Metrik.Library.GenericRepository.Extensions.Interfaces;
+using Metrik.Library.GenericRepository.Interfaces;
 
-namespace Nevaa.Library.Service
+namespace Metrik.Library.Service
 {
     public class BaseService<T> : IBaseService<T> where T : BaseModel
     {

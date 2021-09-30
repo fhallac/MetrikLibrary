@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Text;
 
-namespace Nevaa.Library.GenericRepository.Base.Interfaces
+namespace Metrik.Library.GenericRepository.Base.Interfaces
 {
     public interface IBaseModel
     {

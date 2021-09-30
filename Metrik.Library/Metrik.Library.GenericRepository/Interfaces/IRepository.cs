@@ -1,12 +1,12 @@
-﻿using Nevaa.Library.GenericRepository.Base;
-using Nevaa.Library.GenericRepository.Extensions.Interfaces;
+﻿using Metrik.Library.GenericRepository.Base;
+using Metrik.Library.GenericRepository.Extensions.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
 
-namespace Nevaa.Library.GenericRepository.Interfaces
+namespace Metrik.Library.GenericRepository.Interfaces
 {
     public interface IRepository<T> : IDisposable where T : BaseModel
     {

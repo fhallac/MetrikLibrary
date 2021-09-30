@@ -1,10 +1,10 @@
-﻿using Nevaa.Library.GenericRepository.Base;
+﻿using Metrik.Library.GenericRepository.Base;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Nevaa.Library.GenericRepository.Interfaces
+namespace Metrik.Library.GenericRepository.Interfaces
 {
     public interface IUnitOfWork : IDisposable
     {
